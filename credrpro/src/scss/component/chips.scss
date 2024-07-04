@@ -1,0 +1,127 @@
+.status-chip {
+  padding: 5px 10px;
+  border-radius: 16px;
+  text-align: center;
+
+  &.Pending,
+  &.Unpublished {
+    border: 1px solid $color-pending;
+  }
+
+  &.Accepted,
+  &.Published,
+  &.Initiated,
+  &.Approved {
+    border: 1px solid $color-accept;
+  }
+
+  &.Rejected {
+    border: 1px solid $color-reject;
+  }
+
+  &.margin-right {
+    margin-right: 15px;
+  }
+}
+
+.MuiChip-colorPrimary.color-blue,
+.MuiChip-colorPrimary.Sell {
+  background-color: $color-dark-blue;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+  min-width: 60px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}
+
+.MuiChip-colorPrimary.color-green {
+  background-color: $color-accept;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}
+
+.MuiChip-colorPrimary.color-red {
+  background-color: $color-reject;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}
+
+.MuiChip-colorPrimary.color-warn {
+  background-color: $color-pending;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}
+
+.MuiChip-colorPrimary.Accepted,
+.MuiChip-colorPrimary.Assigned,
+.MuiChip-colorPrimary.Delivered,
+.MuiChip-colorPrimary.Intransit,
+.MuiChip-colorPrimary.Approved,
+.MuiChip-colorPrimary.Exchange,
+.MuiChip-colorPrimary.Initiated,
+.MuiChip-colorPrimary.Published {
+  background-color: $color-accept;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}
+
+.MuiChip-colorPrimary.Rejected,
+.MuiChip-colorPrimary.Dispute {
+  background-color: $color-reject;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}
+
+.MuiChip-colorPrimary.Pending,
+.MuiChip-colorPrimary.Unpublished {
+  background-color: $color-pending;
+  color: #fff;
+  height: auto;
+  padding: 2px 8px;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-size: 12px;
+
+  .MuiChip-label {
+    padding: 0;
+  }
+}

@@ -1,0 +1,165 @@
+.addbtn {
+    top: 35px;
+    width: 200px;
+    height: 45px;
+    background: #0AA81C 0% 0% no-repeat padding-box;
+    font-family: normal normal 600 16px/13px 'ProximaNovaRegular';
+    border: 1px solid #0AA81C;
+    border-radius: 40px;
+    opacity: 1;
+    color: white;
+    position: none;
+}
+
+
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root.Mui-selected:hover {
+    background-color: #E6FFE7 !important;
+    color: #17A81C;
+}
+
+.MuiListItem-button:hover {
+    background-color: #E6FFE7 !important;
+    color: #17A81C;
+}
+
+.MuiMenuItem-root {
+    border-bottom: 1px solid #E8E8E8 !important;
+    font-size: 12px !important;
+    font-family: 'ProximaNovaRegular' !important;
+}
+
+.verifyButton {
+    top: 35px;
+    width: 170px;
+    height: 45px;
+    background: #0AA81C 0% 0% no-repeat padding-box;
+    font-family: normal normal 600 16px/13px 'ProximaNovaRegular';
+    border: 1px solid #0AA81C;
+    border-radius: 40px;
+    opacity: 1;
+    color: white;
+    position: none;
+    text-align: center;
+    margin-right: 130px;
+    margin-bottom: 20px;
+}
+
+.materialUiWrap {
+    width: 100% !important;
+
+    .MuiInputLabel-formControl {
+        left: 15px !important;
+    }
+
+    .MuiInputBase-root {
+        font-family: "ProximaNovaRegular"
+    }
+
+    .MuiSelect-selectMenu {
+        padding: 0px 10px 10px 10px;
+        font-size: 12px;
+        font-family: "ProximaNovaRegular";
+    }
+
+    .MuiInputLabel-shrink {
+        transform: translate(0, -6.5px) scale(0.75) !important;
+        font-size: 14px !important;
+    }
+
+    .MuiInputLabel-formControl {
+        transform: translate(0, 14px) scale(1);
+    }
+
+    .MuiList-padding {
+        padding: 0px !important;
+    }
+
+    .MuiSelect-outlined.MuiSelect-outlined {
+        padding-right: 12px;
+        margin-top: 10px;
+    }
+
+    .MuiFormLabel-root {
+        font-family: "ProximaNovaRegular" !important;
+        font-size: 14px !important;
+    }
+
+    .MuiSelect-select:focus {
+        background-color: rgb(250, 250, 250);
+    }
+}
+
+.addOns {
+    .MuiFormLabel-root {
+        font-size: 10px !important;
+    }
+
+    .MuiInputLabel-shrink {
+        // transform: translate(0, -6.5px) scale(1.) !important;
+        font-size: 14px !important;
+    }
+
+}
+
+.MuiMenuItem-root {
+    white-space: normal !important;
+    width: 100% !important;
+    max-width: 300px !important;
+}
+
+.materialUiWrapText {
+    .MuiInputLabel-formControl {
+        left: 15px !important;
+    }
+
+    .MuiOutlinedInput-input {
+        padding: 11px 10px;
+    }
+
+    .MuiFormLabel-root {
+        font-size: 14px;
+        font-family: 'ProximaNovaRegular';
+    }
+
+    .MuiInputLabel-outlined {
+        transform: translate(0px, 12px) scale(1);
+    }
+
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(-3px, -6.5px) scale(0.8);
+        font-size: 12px !important;
+    }
+
+    .MuiInputBase-root {
+        font-size: 12px;
+        font-family: 'ProximaNovaRegular';
+        background-color: rgb(250, 250, 250);
+        letter-spacing: 1px;
+    }
+}
+
+.pricebrkupWrap {
+    background-color: #e5e5ea;
+    border-radius: 4px;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
+    padding: 5px 10px;
+}
+
+.warning {
+    font-size: 9px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    background-color: #DCBC11;
+    border-radius: 4px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.dialogTitle {
+    // font-size: 10px;
+    padding: 20px;
+    text-align: center;
+    // background-color: #17A81C;
+}

@@ -1,0 +1,129 @@
+@import 'src/scss/settings/variable.scss';
+
+.referenceImg {
+  height: 80px;
+  width: 80px;
+}
+
+.dropDown {
+  width: 68%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  background: white;
+  border-radius: 15px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 530px;
+}
+
+.documents {
+  composes: infoContainer;
+  width: 530px;
+  height: 820px;
+  overflow-y: auto;
+}
+
+.dropDownContainer {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.expandedDropDown {
+  composes: dropDownContainer;
+  border: none;
+  margin: 0;
+}
+
+.dropdownIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.disputeBtn {
+  background-color: orange !important;
+  color: white !important;
+  font-weight: 600;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+.btnClass {
+  font-weight: 600;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+.browseBtn {
+  background-color: white !important;
+  border: 1px solid #5498ff;
+  height: 30px;
+  color: #5498ff;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+
+.filesContainer {
+  height: 150px;
+  margin-top: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dashed $color-gray;
+  background: #fafafa;
+}
+
+.fileInputWrapper {
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.fileViewer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.filesClassName {
+  max-width: none;
+  padding: 0;
+}
+
+.filesContainerClassName {
+  margin: 0;
+}
+
+.documentStatusIcon {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (max-width: 1160px) {
+  .container {
+    display: block;
+  }
+}

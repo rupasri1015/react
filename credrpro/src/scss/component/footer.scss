@@ -1,0 +1,20 @@
+.footer-conatiner {
+  background-color: #414142;
+  padding: 20px 0;
+  margin-left: 240px;
+  text-align: center;
+  transition: all 0.3s;
+
+  @media (max-width: 576px) {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  p {
+    color: white;
+  }
+}
+
+.layout.layout--collapse~.footer-conatiner {
+  margin-left: 55px;
+}

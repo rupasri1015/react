@@ -1,0 +1,154 @@
+
+#businessEntity {
+    .MuiInputBase-input{
+        width: 100% !important;
+        max-width: 330px !important;
+        // height: 37px !important;
+        border: 1px solid #C1C1C1CC !important;
+        opacity: 1 !important;
+        padding: 10px 8px !important;
+        font-size: 14px;
+        font-family: 'ProximaNovaRegular';  
+    }
+    .MuiInputLabel-formControl {
+        font-family: 'ProximaNovaRegular';
+        font-size: 14px;
+        top: -13px !important; 
+        left:15px !important;
+        padding: 3px 0px 0px !important;
+    }
+    .MuiInputLabel-outlined {
+        z-index: 1;
+        top: -8px !important; 
+        left:0px !important;
+        pointer-events: none;
+        font-size: 14px;
+        font-family: 'ProximaNovaRegular';
+    }
+    .MuiFormControl-root {
+        width: 100% !important;
+        max-width: 330px !important ;
+    }
+h3
+{
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    text-align: left;
+    font: normal normal 600 20px/13px 'ProximaNovaRegular';
+    letter-spacing: 0px;
+    color: #333333 !important;
+    opacity: 1;
+}
+
+.addbtn{
+top: 25px;
+left:175px;
+width: 141px;
+height: 39px;
+background: #0AA81C 0% 0% no-repeat padding-box;
+font: normal normal 600 16px/13px 'ProximaNovaRegular';
+border: 1px solid #0AA81C;
+border-radius: 40px;
+opacity: 1;
+color: white;
+}
+
+.addBusinessBtn{
+    top: 25px;
+    left:175px;
+    width: 235px;
+    height: 42px;
+    background: #0AA81C 0% 0% no-repeat padding-box;
+    font: normal normal 600 16px/13px 'ProximaNovaRegular';
+    border: 1px solid #0AA81C;
+    border-radius: 40px;
+    opacity: 1;
+    color: white;  
+}
+.customButton{
+    width: 133px;
+    height: 39px;
+    right: 145px;
+    background: #0AA81C 0% 0% no-repeat padding-box;
+    border: 1px solid #0AA81C !important;
+    border-radius: 40px !important;
+    opacity: 1;
+}
+.customcardview{
+    max-width: 868px;
+    min-height: 186px;
+    opacity: 1;
+}
+
+.viewData{
+    text-align: center;
+    font: normal normal normal 16px/24px ProximaNovaRegular;
+    letter-spacing: 0.15px;
+    padding-top:5px;
+    color: #2DAAF8;
+    opacity: 1;
+    cursor:pointer;
+}
+.numdiv{
+    background-color: black;
+    border-radius: 50% !important;
+    right: 31px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font: normal normal 600 15px/30px 'ProximaNovaRegular';
+    letter-spacing: 0.19px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+h5{
+    text-align: left;
+font: normal normal 600 16px/24px 'ProximaNovaRegular';
+letter-spacing: 0.15px;
+color: #333333CB;
+opacity: 1;
+}
+.editbtn{
+    right: 30px;
+    top:10px;
+    padding-top: 2px;
+    width: 90px;
+    height: 35px;
+    text-align: center ;
+    color: white;
+    background: #2DAAF8 0% 0% no-repeat padding-box;
+    font: normal normal normal 12px/15px 'ProximaNovaRegular';
+    border: 1px solid #23A4F5;
+    border-radius: 190px;
+    opacity: 1;
+}
+.customcard{
+    width: 868px !important;
+    height: 835px !important;
+    background: #FAFAFA 0% 0% no-repeat -box;
+    opacity: 1;
+}
+.labelstyle{
+font: normal normal normal 14px/24px 'ProximaNovaRegular';
+letter-spacing: 0.13px;
+color: #333333;
+opacity: 1;
+margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+.labelvalstyle{
+    font: normal normal 600 14px/24px 'ProximaNovaRegular';
+    letter-spacing: 0.13px;
+    color: #333333;
+    opacity: 1;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+h4{
+font: normal normal 600 16px/24px 'ProximaNovaRegular';
+letter-spacing: 0.15px !important;
+color: #333333CB !important;
+opacity: 1, 
+}
+}

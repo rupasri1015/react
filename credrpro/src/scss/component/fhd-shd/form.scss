@@ -1,0 +1,94 @@
+.form-conatiner {
+  text-align: center;
+
+  .MuiStepper-root.steper-header {
+    margin: 0 auto;
+    background: transparent;
+    max-width: 500px;
+
+    .MuiStep-root {
+      .MuiStepConnector-root {
+
+        &.MuiStepConnector-completed,
+        &.MuiStepConnector-active {
+          .MuiStepConnector-lineHorizontal {
+            border-top-width: 2px;
+            border-color: #4dbd74;
+          }
+        }
+
+        .MuiStepConnector-lineHorizontal {
+          border-top-width: 2px;
+        }
+      }
+    }
+  }
+
+  .MuiStepIcon-root {
+    color: #e3e3e3 !important;
+    box-shadow: $shadow;
+    border-radius: 50%;
+
+    .MuiStepIcon-text {
+      fill: #333;
+    }
+
+    &.MuiStepIcon-active {
+      color: #e3e3e3 !important;
+      box-shadow: $shadow;
+    }
+
+    &.MuiStepIcon-completed {
+      color: #4dbd74 !important;
+      box-shadow: $shadow;
+    }
+  }
+
+  .form-card {
+    max-width: 900px;
+    margin: 0 auto;
+
+    .card-body {
+      padding: 30px;
+      box-shadow: $shadow;
+
+      .form-title {
+        font-size: 16px;
+        font-family: 'ProximaNovaSemibold', sans-serif;
+        text-align: left;
+      }
+
+      .MuiDivider-root {
+        margin-top: 15px;
+      }
+
+      .cta-container {
+        width: 100%;
+        max-width: 705px;
+        text-align: right;
+        margin-top: 20px;
+      }
+
+      .field-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .form-field {
+          width: 100%;
+          max-width: 325px;
+          text-align: left;
+
+          &:nth-child(odd) {
+            margin-right: 55px;
+          }
+
+          .Mui-focused.focus-color {
+            color: rgba(0, 0, 0, 0.54)
+          }
+        }
+      }
+    }
+
+  }
+}

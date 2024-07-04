@@ -1,0 +1,36 @@
+.preview-container {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  border: 1px solid $color-gray-light;
+  box-shadow: $shadow;
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 10px;
+  }
+
+  .preview {
+    height: 100%;
+    width: 100%;
+  }
+
+  .close-btn--round {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    cursor: pointer;
+
+    .close-icon {
+      width: 10px;
+      margin-top: -2px;
+      margin-left: 5px;
+    }
+  }
+
+}

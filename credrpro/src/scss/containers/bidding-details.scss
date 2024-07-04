@@ -1,0 +1,119 @@
+.tab-container {
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  box-shadow: $shadow;
+
+  .tab-heading {
+    background-color: $color-gray-light;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+
+  .data-row {
+    display: table-row;
+
+    .title {
+      font-size: 14px;
+      display: table-cell;
+      padding: 10px;
+      padding-right: 50px;
+    }
+
+    .data {
+      display: table-cell;
+      width: 100%;
+    }
+  }
+
+  .inspection-container {
+    width: 100%;
+    padding: 10px;
+
+    .inspection-param {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .param-derails {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+
+      .param-row {
+        display: table-row;
+
+        .param-title {
+          font-size: 14px;
+          display: table-cell;
+          padding: 10px;
+          padding-right: 50px;
+          min-width: 250px;
+        }
+
+        .param-data {
+          display: table-cell;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .doc-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    align-items: center;
+    margin-top: 10px;
+
+    .doc-name {
+      min-width: 200px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .docs {
+      width: 100%;
+      display: flex;
+
+      .doc-preview {
+        height: 80px;
+        width: 80px;
+        overflow: hidden;
+        transition: all .2s ease-out;
+        cursor: pointer;
+
+        img {
+          height: 100%;
+        }
+
+        &:not(:last-child) {
+          margin-right: 15px;
+        }
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+.MuiTabs-indicator.indicator-color {
+  background-color: $color-dark-blue;
+}
+
+.MuiTab-root.Mui-selected {
+  background-color: #F4F7FD;
+}
+
+.MuiTab-root.tab-style {
+  text-transform: none;
+  text-align: left;
+
+  .MuiTab-wrapper {
+    align-items: flex-start;
+    font-family: 'ProximaNovaSemibold', sans-serif;
+  }
+}

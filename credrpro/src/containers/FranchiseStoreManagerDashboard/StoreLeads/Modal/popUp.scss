@@ -1,0 +1,45 @@
+.modalCSS{
+    text-align: right;
+  }
+
+  .otpButton{
+    margin-top: -9px;
+  }
+
+  .mainSecOuter{
+    width: 200px;
+    margin: 0px auto;
+  }
+
+  .tokenFullPayment{
+    width: 300px;
+    margin: 0px auto;
+  }
+
+  .tokenSaleOuter{
+    border-color: #EEEEEE;
+    border-radius: 0 !important;
+    padding-bottom: 0px !important;
+  }
+
+  .bikeInputs {
+    max-width: 98px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    position: relative;
+  }
+
+  .fullSaleOuter{
+    background: #F7F7F7;
+    border-color: #EEEEEE;
+    border-radius: 0 !important;
+  }
+
+  .bikeInputs:focus{
+    border-bottom: 1px solid #ccc !important;
+  }
+
+  .customInput textarea:focus, .customInput input:focus{
+    outline: none !important;
+  }

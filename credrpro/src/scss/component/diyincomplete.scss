@@ -1,0 +1,58 @@
+.MuiPaginationItem-root {
+    // margin: 0px !important;
+    border-radius: 4px !important;
+}
+
+.diyWrap {
+    .rs-modal-header .rs-modal-title {
+        color: #333333;
+        font-size: 22px;
+        font-family: 'ProximaNovaSemibold';
+    }
+
+    .rs-modal-header .rs-modal-header-close {
+        font-size: 20px !important;
+        right: 30px !important;
+    }
+
+    .rs-modal-body {
+        margin-top: 0px !important;
+    }
+
+    .rs-picker-default .rs-picker-toggle.rs-btn {
+        border-radius: 0px !important;
+    }
+}
+
+.table-container .MuiTableCell-sizeSmall {
+    padding: 15px 8px 15px 8px !important;
+}
+
+.call-header {
+    border-bottom: 1px solid
+    rgba(224, 224, 224, 1);
+    font-family: 'ProximaNovaSemibold';
+    padding: 10px 8px 12px 8px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+}
+
+.rs-btn-default.rs-btn-green{
+    background-color: #47B26C;
+}
+
+.rs-btn-default.rs-btn-green:not(.rs-btn-disabled):hover{
+    background-color: #47B26C;
+}
+
+.paddingDiy1 {
+    padding-left: 30px !important;
+    padding-right: 0px !important;
+}
+
+.paddingDiy2 {
+    padding-left: 35px !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+    border-radius: 0px !important;
+}

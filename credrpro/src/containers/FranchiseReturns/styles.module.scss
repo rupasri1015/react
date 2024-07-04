@@ -1,0 +1,45 @@
+@import 'src/scss/settings/variable.scss';
+
+.returnReason {
+	display: flex;
+	flex-direction: column;
+}
+
+.linkButton {
+	text-decoration: underline;
+	cursor: pointer;
+	color: $color-blue;
+}
+
+.statusText {
+	font-size: 12px !important;
+}
+
+.approveBtn {
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	height: 35px;
+	margin: 0;
+	color: black !important;
+}
+
+.rejectBtn {
+	composes: approveBtn;
+	margin: 0 0 0 15px;
+}
+
+.refundAmtContainer {
+	display: flex;
+	align-items: baseline;
+}
+
+.font {
+ font-size: 12px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,71 @@
+.btn-outline {
+  background: white;
+  outline: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border-width: 1px;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &.blue {
+    background-color: #F4F7FD;
+    border-color: #111328;
+    color: #111328;
+
+    &.selected,
+    &:hover {
+      background-color: #111328;
+      color: white;
+    }
+  }
+}
+
+.btn-outline--small {
+  background: transparent;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 16px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  border-width: 1px;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+    // margin-bottom: 5px;
+  }
+
+  &.bulk-download {
+    display: block;
+    margin-left: auto;
+  }
+
+  &.accept {
+    border-color: $color-accept;
+
+    &:hover {
+      background-color: $color-accept;
+      color: white;
+    }
+  }
+
+  &.reject {
+    border-color: $color-reject;
+
+    &:hover {
+      background-color: $color-reject;
+      color: white;
+    }
+  }
+
+  &.blue {
+    border-color: #111328;
+    color: #111328;
+
+    &:hover {
+      background-color: #111328;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="18px" viewBox="0 0 30 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>menu-button-of-three-lines</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Credr-Pro" transform="translate(-24.000000, -21.000000)" fill="#FFFFFF">
+            <g id="navbar">
+                <g id="menu-button-of-three-lines" transform="translate(24.000000, 21.000000)">
+                    <path d="M29.6209314,2 C29.8296078,2 30,1.86900333 30,1.72200953 L30,0.277990474 C30,0.12499326 29.8390686,0 29.6209314,0 L0.379068627,0 C0.170441176,0 0,0.130996675 0,0.277990474 L0,1.72200953 C0,1.87500674 0.160931373,2 0.379068627,2 L29.6209314,2 L29.6209314,2 Z" id="Path"></path>
+                    <path d="M0,9.72200953 C0,9.87500674 0.160931636,10 0.379069247,10 L29.6209308,10 C29.8295585,10 30,9.86896738 30,9.72200953 L30,8.27799047 C30,8.1239867 29.8390684,8 29.6209308,8 L0.379069247,8 C0.170441455,8 0,8.13103262 0,8.27799047 L0,9.72200953 Z" id="Path"></path>
+                    <path d="M0,17.7220045 C0,17.8750045 0.160931636,18 0.379069247,18 L29.6209308,18 C29.8295585,18 30,17.868965 30,17.7220045 L30,16.2779595 C30,16.1249596 29.8390684,16 29.6209308,16 L0.379069247,16 C0.170441455,16 0,16.130999 0,16.2779595 L0,17.7220045 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

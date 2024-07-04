@@ -1,0 +1,19 @@
+.input-upload-container {
+  display: flex;
+  margin-top: 16px;
+
+  .Mui-error.MuiInputBase-formControl.MuiInput-formControl .MuiInputBase-input.MuiInput-input {
+    color: #cc0000;
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  button {
+    background-color: #d92128;
+    border: none;
+    color: white;
+    letter-spacing: 0.5px;
+  }
+}

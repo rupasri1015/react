@@ -1,0 +1,63 @@
+.MuiBackdrop-root.image-viewer {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .9);
+
+  .image-viewer-conatiner {
+    .image-error {
+      color: red;
+      font-size: 18px;
+    }
+
+    .viewer-controls {
+      display: flex;
+      align-items: center;
+
+      .footer-details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+
+      .tools {
+        color: white;
+        margin-bottom: 10px;
+
+        button {
+          box-shadow: none;
+          border: none;
+          background-color: transparent;
+          border-radius: 50%;
+          padding: 5px;
+          color: white;
+
+          &:hover {
+            background-color: rgba(232, 232, 232, .5);
+          }
+        }
+      }
+
+      .title {
+        color: white;
+      }
+
+      .control {
+        color: white;
+        min-width: 50px;
+
+        svg {
+          cursor: pointer;
+        }
+
+        &.prev {
+          margin-left: 10px;
+        }
+      }
+
+      .image-preview {
+        height: 100%;
+        width: 100%;
+        max-height: calc(100vh - 90px);
+      }
+    }
+  }
+}

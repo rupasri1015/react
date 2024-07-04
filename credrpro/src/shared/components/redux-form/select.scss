@@ -1,0 +1,16 @@
+.outlinedSelectwrap {
+    .MuiInputBase-root {
+        font-family: 'ProximaNovaRegular';
+    }
+    .MuiSelect-outlined.MuiSelect-outlined {
+        padding: 10px 24px 10px 10px;
+    }
+
+    .MuiOutlinedInput-root {
+        border-radius: 0px !important;
+    }
+}
+
+.MuiOutlinedInput-root {
+    border-radius: 0px !important;
+}

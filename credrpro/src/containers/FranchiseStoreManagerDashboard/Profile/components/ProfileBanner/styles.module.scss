@@ -1,0 +1,41 @@
+.profileContainer {
+    margin: 0 -30px;
+    position: relative;
+    height: 350px;
+    width: 100%;
+    .fa {
+      font-size: 14px;
+    }
+}
+
+.profileContainer:hover .backImgOverlay {
+    opacity: 0.65;
+  }
+
+.backImgOverlay {
+    position: absolute;
+    color: #c4c4c3;
+    transition: 0.5s ease;
+    font-size: 20px;
+    right: 30px;
+    bottom: 0;
+    border: 1.5px solid #f1f1f1;
+    height: 35px;
+    padding: 0px 6px;
+    border-radius: 4px;
+    opacity: 0;
+    background-color: #140e0a;
+}
+
+.backgroundUpdate {
+    cursor: pointer;
+    text-align: center;
+}
+
+.updateFont {
+    font-size: 16px;
+}
+
+.imageDisplay {
+    display: none;
+}

@@ -1,0 +1,26 @@
+.filterContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.searchContainer {
+	width: 300px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+.searchField {
+	// Subtracting icons width to fix text going behind icons
+	width: calc(100% - 40px) !important;
+	border: none;
+	padding-right: 0 !important;
+}
+
+.buttonContainer {
+	display: flex;
+	align-items: center;
+}
+
+.marginRight {
+	margin-right: 20px;
+}

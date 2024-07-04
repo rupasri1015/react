@@ -1,0 +1,137 @@
+.rowstyle{
+    padding: 10px 15px 10px !important;
+}
+.table-borderless th, .table-borderless td, .table-borderless thead th, .table-borderless tbody + tbody {
+    border: 0;
+    padding: 1px;
+}
+.card {
+    padding-bottom: 0px !important;
+}
+.lables{
+    margin-top: -12px;
+}
+// tr{
+//     border-left: 1px solid;
+//     border-right: 1px solid;
+// }
+.broder{
+    border-right: 1px
+ solid #dee2e6;
+ border-left: 1px
+ solid #dee2e6;
+}
+.MuiFilledInput-root.Mui-disabled {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 0px;
+}
+.MuiInputBase-root.Mui-disabled {
+    color: black;
+}
+// .MuiFormControl-root {
+//     width: 250px;
+// }
+.equalbtn{
+    padding: 0px 4px 6px;
+    border-radius:100%;
+    pointer-events: none;
+    border:3px solid #5480F2 !important;
+    height:20px !important;
+    width:20px !important;
+    text-align:center !important;
+    color:#5480F2 !important;
+    background-color:white !important;
+    font-weight: bold !important;
+}
+.MuiInputBase-input.Mui-disabled {
+    opacity: 1;
+    text-align: center;
+}
+.MuiFilledInput-input {
+    padding: 26px 0px 10px;
+}
+.MuiInputBase-input {
+    margin-top: -10px;
+}
+.subbtn{
+    
+    width: 141px;
+    height: 39px;
+    background: #0AA81C 0% 0% no-repeat padding-box;
+    font: normal normal 600 16px/13px ProximaNovaRegular;
+    border: 1px solid #0AA81C;
+    border-radius: 40px;
+    opacity: 1;
+    color: white;
+    }
+    .editbtn{
+    
+        width: 200px;
+        height: 39px;
+        background: #55B7EF 0% 0% no-repeat padding-box;
+        font: normal normal 600 16px/13px ProximaNovaRegular;
+        // border: 1px solid #0AA81C;
+        
+        border-radius: 40px;
+        opacity: 1;
+        color: white;
+        }
+        .editbtn:hover{
+            // padding-right: 25px;
+            background: #55B7EF;
+          }
+          
+          .subbtn:hover{
+            background: #0AA81C;
+            
+
+          }   
+    .MuiDialogActions-root {
+        padding: 20px 25px 20px 0px !important;
+    }
+    .MuiButton-outlinedPrimary {
+        color: #55B7EF;
+        border: 1px solid #55B7EF;
+    }
+    .clrBtn{
+        animation: none;
+      background-color: grey;
+      :hover{
+          background-color: grey;
+      }
+    }
+    .form-control{
+        width: 145px !important;
+        margin-left: -26px !important;
+        height: 40px !important;
+    }
+    .MuiCheckbox-colorSecondary.Mui-checked {
+        color: green;
+    }
+    td{
+        padding-left: 20px !important;
+        // padding-right: 20px !important;
+    }
+    
+    .MuiCheckbox-root {
+        width:50px;
+        height: 25px;
+        margin-left: -10px;
+        :checked{
+            background-color: green !important;
+        }
+    }
+    .checkbox:checked ~  {
+        background-color: green!important;
+      }
+      textarea{
+        width: 535px;
+         height: 80px;
+         margin-left: -40px;
+        border: 1px solid #ced4da;
+        
+      }
+      .MuiDialog-paperFullWidth {
+        width: 785px !important;
+    }
+   

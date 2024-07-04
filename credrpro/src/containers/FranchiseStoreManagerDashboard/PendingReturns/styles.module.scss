@@ -1,0 +1,16 @@
+@import 'src/scss/settings/variable.scss';
+
+.returnReason {
+	display: flex;
+	flex-direction: column;
+}
+
+.linkButton {
+	text-decoration: underline;
+	cursor: pointer;
+	color: $color-blue;
+}
+
+.statusText {
+	font-size: 12px;
+}

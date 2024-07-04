@@ -1,0 +1,71 @@
+.rc-pagination-item.rc-pagination-item-active {
+
+  &,
+  &:hover {
+    color: #fff;
+    background-color: $color-dark-blue;
+    border-color: $color-dark-blue;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.rc-pagination-item {
+  color: $color-dark-blue;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+
+    a {
+      color: $color-dark-blue;
+    }
+  }
+}
+
+.rc-pagination-next {
+  &:focus {
+    outline: none;
+  }
+}
+
+.rc-pagination-prev {
+  &:focus {
+    outline: none;
+  }
+}
+
+.rc-pagination-jump-next {
+  &:focus {
+    outline: none;
+  }
+}
+
+.rc-pagination-jump-prev {
+  &:focus {
+    outline: none;
+  }
+}
+
+.rc-pagination-jump-prev:hover:after,
+.rc-pagination-jump-next:hover:after {
+  color: $color-dark-blue;
+}
+
+.rc-pagination-options-quick-jumper {
+    font-family: 'ProximaNovaSemibold';
+    font-size: 14px;
+    color: #111328;
+}
+
+.rc-pagination-options-quick-jumper input{
+   padding: 3px 5px;
+}

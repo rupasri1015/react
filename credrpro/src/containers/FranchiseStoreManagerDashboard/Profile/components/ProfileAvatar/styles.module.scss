@@ -1,0 +1,73 @@
+.imgContainer:hover .overlay {
+    opacity: 1;
+  }
+
+.imgContainer:hover .overlay {
+    background: #000;
+    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(
+      transparent,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    content: '';
+    height: 60px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    transition: top 0.13s ease-out;
+    width: 150px;
+}
+
+.imgContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    border: 2.5px solid #ffffff;
+
+    right: 50%;
+    // 350px is height of the banner
+    transform: translate(50%, calc(350px - 50%));
+
+    .overlay {
+      position: absolute;
+      color: #ffffff;
+      // transition: .5s ease;
+      transition: top 0.6s ease-out;
+      opacity: 0;
+      // color: black;
+      font-size: 20px;
+      text-align: center;
+      left: 0;
+      top: 91px;
+      width: 150px;
+    }
+
+    .avatar {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .fa {
+      font-size: 16px;
+    }
+}
+
+.updateImageFont {
+    display: block;
+    font-size: 15px;
+}
+
+.profileDisplay {
+    display: none;
+}
+
+.profileImgUpdate {
+    cursor: pointer;
+  }
+

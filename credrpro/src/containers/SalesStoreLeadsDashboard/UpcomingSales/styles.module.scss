@@ -1,0 +1,14 @@
+.nameSection {
+	display: flex;
+	align-items: center;
+}
+
+.callIcon {
+	width: 20px;
+	cursor: pointer;
+	margin-left: 10px;
+
+	&:hover {
+		transform: scale(1.2);
+	}
+}

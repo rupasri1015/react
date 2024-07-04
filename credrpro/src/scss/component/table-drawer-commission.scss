@@ -1,0 +1,133 @@
+.table-shd-container{
+  display: table;
+  overflow-x: hidden;
+  width: 100%;
+
+.table-shd-wraper {
+    background-color: white;
+    width: 100%;
+    overflow-x: auto;
+    display: table-cell;
+
+}
+    .table-shd-drawer{
+      min-width: 0;
+      width: 0;
+      height: 0;
+      align-self: stretch;
+      background-color: #F7F7F7;
+      transition: all 10s ease-out;
+      position: relative;
+      right: 0;
+      display:none;
+      box-shadow: 0 1px 30px 1px rgba(0, 0, 0, 0.11);
+      &.open{
+        min-width: 320px !important;
+        // height: 60vh;
+        transition: all 10s ease-out;
+        display:table-cell;
+        border-right: 1px solid #e0e0e0;
+        // margin-top: 20px;
+      }
+    }
+  
+    .link {
+      text-decoration: underline;
+      cursor: pointer;
+      display: inline-block;
+    }
+  
+    &.marginTop {
+      margin-top: 22px;
+    }
+  
+    &.marginTopFranchise {
+      margin-top: 2px;
+    }
+  
+    &.drawerStyles {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: calc(100% - 250px)
+    }
+  
+    &.sort {
+      cursor: pointer;
+    }
+  
+    .MuiTableCell-sizeSmall {
+      padding: 6px 8px 6px 8px;
+    }
+  
+    .MuiTable-root {
+      font-family: inherit;
+  
+      .MuiTableHead-root {
+        th {
+          font-size: 13px;
+        }
+      }
+  
+      .MuiTableBody-root {
+        td {
+          font-size: 12px;
+        }
+      }
+  
+      .MuiTableHead-root {
+        box-shadow: $shadow;
+  
+        .MuiTableRow-root .MuiTableCell-root {
+          line-height: 1rem;
+        }
+      }
+    }
+  
+    .table-shd-paginator {
+      padding: 20px 15px;
+      overflow: auto;
+    }
+}
+  
+  .payment-action-icon {
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .MuiTableRow-root.MuiTableRow-hover:hover {
+    background-color: #F4F7FD !important;
+  }
+  
+  td p {
+    margin: 0;
+  }
+  
+  .action-icon {
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .MuiDrawer-paperAnchorRight {
+    left: auto;
+    width: 300px;
+    right: 0px;
+    height: 100vh;
+  }
+  
+  .customerDetails {
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  
+  .dividerWidth {
+    width: 100%;
+  }
+  
+  .tableCellHead {
+    font-family: 'ProximaNovaSemibold';
+  }
+
+  .position-relative{
+    position: relative;
+  }

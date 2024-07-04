@@ -1,0 +1,63 @@
+.doc-image-conatiner,
+.doc-image-conatiner--reverse {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+
+  p {
+    margin: 0;
+  }
+
+  .name {
+    min-width: 120px;
+    margin-left: 10px;
+  }
+
+  .doc-image {
+    width: 100%;
+
+    .preview-container {
+      width: 80px;
+      height: 80px;
+      margin: 10px;
+    }
+
+    .doc {
+      width: 80px;
+      height: 80px;
+      margin: 10px;
+      box-shadow: $shadow;
+      transition: all .2s ease-out;
+      cursor: pointer;
+      padding: 5px;
+
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}
+
+.removedbg {
+  background-color: transparent !important;
+}
+
+.doc-image-conatiner {
+  &:nth-child(even) {
+    background-color: #eee;
+    border-radius: 5px;
+  }
+}
+
+.doc-image-conatiner--reverse {
+  &:nth-child(odd) {
+    background-color: #eee;
+    border-radius: 5px;
+  }
+}
+
+.upload-enhancee-images {
+  width: 100%;
+  text-align: right;
+}

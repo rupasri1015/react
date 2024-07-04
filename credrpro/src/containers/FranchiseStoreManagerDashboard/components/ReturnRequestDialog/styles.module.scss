@@ -1,0 +1,64 @@
+@import 'src/scss/settings/variable.scss';
+
+.dialogContent {
+	display: flex;
+	flex-direction: column;
+	padding: 35px 24px;
+}
+
+.dropDown {
+	width: 60%;
+	margin: 0;
+}
+
+.commentsArea {
+	width: 80%;
+	margin-top: 20px;
+}
+
+.filesContainer {
+	height: 150px;
+	margin-top: 20px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px dashed $color-gray;
+	background: #FAFAFA;
+}
+
+.fileInputWrapper {
+	margin-top: 20px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	bottom: 0;
+}
+
+.fileViewer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 30px;
+	justify-content: center;
+}
+
+.warningText {
+	color: $color-red;
+}
+
+.browseBtn {
+	background-color: $color-dark-blue !important;
+	height: 40px;
+}
+
+.divider {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.dialogActions {
+	padding: 15px 50px;
+}

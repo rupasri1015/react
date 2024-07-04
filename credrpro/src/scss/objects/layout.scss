@@ -1,0 +1,48 @@
+.container {
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    max-width: 1630px;
+  }
+}
+
+.container__wrap {
+  padding-left: 0;
+  padding-top: 80px;
+  min-height: 100vh;
+  transition: padding-left 0.3s;
+  padding-bottom: 50px;
+
+  @include themify($themes) {
+    background: themed('containerBackround');
+  }
+
+  @media screen and (min-width: 576px) {
+    padding-left: 270px;
+    padding-right: 20px;
+  }
+}
+
+.layout {
+
+  &.layout--collapse {
+
+    & + .container__wrap {
+      padding-left: 0;
+
+      @media screen and (min-width: 576px) {
+        padding-left: 60px;
+      }
+    }
+  }
+
+  &.layout--top-navigation{
+
+    & + .container__wrap{
+
+      @media screen and (min-width: 576px) {
+        padding-left: 0;
+      }
+    }
+  }
+}

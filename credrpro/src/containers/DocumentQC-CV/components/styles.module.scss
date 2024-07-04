@@ -1,0 +1,57 @@
+.filterContainer {
+  background: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.fromDateContainer {
+  width: 220px;
+  margin-right: 20px;
+}
+
+.toDateContainer {
+  composes: fromDateContainer;
+}
+
+.searchContainer {
+  max-width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.searchFieldClass {
+  border: none;
+}
+
+.dropDownContainer {
+  max-width: 220px;
+  margin: 0 20px 0 0;
+}
+
+.cardBody {
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tableContainer {
+  composes: cardBody;
+  padding: 30px;
+}
+
+.statusBtn {
+  height: 36px;
+  padding: 7px 15px;
+}
+.leadLabel{
+  background-color: #DCE7FD !important;
+ padding: 2px !important;
+  // color: white;
+}
+
+.typeLabel{
+  background-color: green !important;
+ padding: 2px !important;
+  // color: white;
+}

@@ -1,0 +1,36 @@
+.documentQcbutton {
+  &:first-child {
+    margin-left: 160px;
+  }
+}
+
+.doc-received-header {
+  margin-left: 20px;
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+.check-valid {
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+.upload-image {
+  margin-top: 11px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.red-star {
+  color: red;
+  vertical-align: -1px;
+  font-size: 19px;
+}
+
+.MuiFormLabel-root.doc-label.Mui-focused {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.imageview {
+  margin-bottom: 20px;
+}

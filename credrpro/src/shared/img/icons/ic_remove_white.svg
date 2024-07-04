@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_266" data-name="Path 266" d="M5.192-13.839a.178.178,0,0,1,0-.258l2.762-2.762a.4.4,0,0,0,.11-.258.4.4,0,0,0-.11-.258l-.516-.516A.4.4,0,0,0,7.181-18a.334.334,0,0,0-.258.11L4.161-15.128a.178.178,0,0,1-.258,0L1.142-17.89A.4.4,0,0,0,.884-18a.4.4,0,0,0-.258.11l-.516.516a.4.4,0,0,0-.11.258.4.4,0,0,0,.11.258L2.872-14.1a.178.178,0,0,1,0,.258L.11-11.077a.4.4,0,0,0-.11.258.4.4,0,0,0,.11.258l.516.516a.4.4,0,0,0,.258.11.4.4,0,0,0,.258-.11L3.9-12.808a.178.178,0,0,1,.258,0l2.762,2.762a.4.4,0,0,0,.258.11.4.4,0,0,0,.258-.11l.516-.516a.4.4,0,0,0,.11-.258.4.4,0,0,0-.11-.258Z" transform="translate(0 18)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_265" data-name="Path 265" d="M-958,199.12h648.1V-246H-958Z" transform="translate(958 246)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="close-icon-circle" transform="translate(-465 -772)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(465 772)" fill="#fafafa" stroke="#eee" stroke-width="1">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8.5" fill="none"/>
+    </g>
+    <g id="Group_216" data-name="Group 216" transform="translate(470 795)">
+      <g id="Group_203" data-name="Group 203" transform="translate(0 -18)" clip-path="url(#clip-path)">
+        <g id="Group_202" data-name="Group 202" transform="translate(-431.168 -102.616)" clip-path="url(#clip-path-2)">
+          <path id="Path_264" data-name="Path 264" d="M-5-23H7.565v12.565H-5Z" transform="translate(433.918 123.366)" fill="#d1d1d1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

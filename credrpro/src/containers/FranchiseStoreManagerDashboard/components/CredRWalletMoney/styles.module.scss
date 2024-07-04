@@ -1,0 +1,102 @@
+.makePayment{
+    font-family: 'ProximaNovaSemibold';
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    border-radius: 18.5px;
+    border: solid 1px #3794d2;
+    width: 140px;
+    height: 37px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    background-color: #DCE7FD;
+    transition: all 0.4s;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    // color: #fff;
+    // background-color: white;
+    &:hover {
+        background-color: #C7FACB;
+        transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+        color: #4DBD74;
+    }
+ }
+
+ .netBalance{
+    width: 210px;
+    height: 111px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+    border: solid 1px #5abb7c;
+    background-color: #4dbd74;
+    margin-top: 10px;
+    padding: 13px 0 0 8px;
+ }
+  
+ .pendingPayments {
+    width: 210px;
+    height: 111px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+    border: solid 1px #eb8d12;
+    background-color: #f68d04;
+    margin-top: 10px;
+    padding: 13px 0 0 8px;
+    font-family: 'ProximaNovaSemibold';
+  }
+  
+ .pendingBalanceText{
+    width: 100%;
+    height: 24px;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.33px;
+    color: #ffffff !important;
+ }
+  
+ .netBalanceText{
+  width: 100%;
+  height: 24px;
+  font-family: 'ProximaNovaSemibold';
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.33px;
+  color: #ffffff !important;
+ }
+  
+ .netBalanceAmount{
+    width: 100%;
+    height: 36px;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #ffffff !important;
+  }
+  
+  .pendingBalanceAmount{
+    width: 100%;
+    height: 36px;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #ffffff !important;
+  }

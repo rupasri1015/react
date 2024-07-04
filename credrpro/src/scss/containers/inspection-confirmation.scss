@@ -1,0 +1,206 @@
+.lead-header {
+  max-width: 820px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.inspection-confirmation-form-container {
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 10%;
+  max-width: 820px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+  background-color: #fff !important;
+  padding: 30px;
+  position: center;
+  border: 5px;
+  border-color: #000000 !important;
+  border-radius: 5px !important;
+  .redial-button {
+    margin-bottom: 20px;
+
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .close-lead-upd-button {
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: right;
+    float: right;
+  }
+
+  .bike-image-title {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+  .submit-button-group {
+    text-align: right;
+    margin-top: 80px;
+
+    button:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  .price-range-slider-container {
+    padding: 0 10px;
+
+    .price-range {
+      font-size: 14px;
+      color: #333333;
+      margin-bottom: 2px;
+    }
+
+    .price-slider {
+      width: 100%;
+      height: 2px;
+      border: 2px solid #d8d8d8;
+      position: relative;
+      margin-top: 3px;
+
+      &::before {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 50%;
+        top: -2px;
+        position: absolute;
+        background-color: #da2128;
+      }
+
+      .slider-key {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+        border: solid 2px #d9d9d9;
+        background-color: #d9d9d9;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        position: absolute;
+        display: inline-block;
+
+        &.left {
+          top: -9px;
+          left: -9px;
+        }
+
+        &.right {
+          right: -9px;
+          top: -9px;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          background-color: #da2128;
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .bike-price-container {
+      display: flex;
+      justify-content: space-between;
+
+      .bike-price {
+        font-size: 14px;
+        color: #333;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.field-padding {
+  margin-bottom: 15px;
+}
+
+.mmv-header {
+  font-size: 18px;
+  font-family: "ProximaNovaBold";
+  color: #333333;
+  text-align: center;
+}
+
+// For blinking Animation start
+.blink {
+  width: 200px;
+  height: 50px;
+  background-color: magenta;
+  padding: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.popupbg {
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 80%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+  padding-left: 5%;
+}
+
+.LeadFeild {
+  font-family: ProximaNova;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #333333;
+  padding-left: 3%;
+}
+
+.inspection-confirmation-container {
+  .autoDialing {
+    background-color: #ffc478;
+    text-align: center;
+    font-size: 20;
+
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  .callLeadInfo {
+    background-color: #b8de6f;
+    text-align: center;
+    margin-top: 1%;
+    text-align: center;
+    width: 40%;
+    margin-left: 20%;
+    border-radius: 5px;
+  }
+
+  .Welcome-to-CredR-Aut {
+    width: 384px;
+    height: 27px;
+    font-family: ProximaNova;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: red;
+  }
+}

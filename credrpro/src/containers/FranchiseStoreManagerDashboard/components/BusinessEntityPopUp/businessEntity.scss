@@ -1,0 +1,21 @@
+#warningIcon{
+    .MuiSvgIcon-root{
+        height: 1pc !important;
+    }
+}
+
+.addbtn{
+    top: 35px;
+    width: 225px;
+    height: 45px;
+    background: #0AA81C 0% 0% no-repeat padding-box;
+    font-family: normal normal 600 16px/13px 'ProximaNovaRegular';
+    border: 1px solid #0AA81C;
+    border-radius: 40px;
+    opacity: 1;
+    color: white;
+    position: none;
+    text-align: center;
+    // margin-right: 100px;
+    margin-bottom: 12px;
+}

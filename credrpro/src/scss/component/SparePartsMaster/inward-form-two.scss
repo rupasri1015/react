@@ -1,0 +1,25 @@
+.header-title {
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 1em !important;
+}
+
+.flex-row{
+    display: flex;
+    margin: 2em 0;
+
+    .spm-form-two-col {
+        width: 50%;
+        margin: 0 1em;
+
+        .spm-form-two-row {
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.assignment-details{
+    margin-right: 3em;
+    font-size: 16px;
+    font-weight: bold;
+}

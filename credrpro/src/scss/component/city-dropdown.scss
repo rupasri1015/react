@@ -1,0 +1,16 @@
+.city-dropdown-container {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.city-dropdown {
+  &__indicator-separator {
+    display: none;
+  }
+
+  &__control {
+    height: 37px !important;
+    min-height: 37px !important;
+    border-radius: 0 !important;
+  }
+}

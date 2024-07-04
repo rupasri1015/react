@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>filter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Credr-Pro" transform="translate(-280.000000, -84.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="right-block" transform="translate(270.000000, 78.000000)">
+                <g id="Filters" transform="translate(10.000000, 0.000000)">
+                    <g id="filter" transform="translate(0.000000, 6.000000)">
+                        <path d="M18.9059371,4.01718743 L21.6199995,0 L0.0199999996,0 L2.73406242,4.01718743 C2.76203118,4.00812491 2.79062494,4.00249991 2.81999994,4 L18.8199996,4 C18.8492183,4.00249991 18.8779683,4.00812491 18.9059371,4.01718743 Z" id="Path"></path>
+                        <path d="M9.21999979,13.5999998 L9.21999979,22.3999995 L12.4199997,20.9293745 L12.4199997,13.5999998 C12.4199997,13.5193747 12.4443747,13.4406247 12.4898435,13.3740622 L15.0779684,9.59999979 L6.56203109,9.59999979 L9.1499998,13.3740622 C9.19562479,13.4406247 9.21999979,13.5193747 9.21999979,13.5999998 Z" id="Path"></path>
+                        <polygon id="Path" points="15.6256247 8.7999998 18.3692183 4.79999989 3.27078117 4.79999989 6.01437487 8.7999998"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

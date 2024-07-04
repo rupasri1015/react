@@ -1,0 +1,63 @@
+@import './settings/variable'; //themes' colors
+
+//base...
+@import './generic/normalize';
+@import './generic/box-sizing';
+@import './base/scaffolding'; // styles of base elements
+@import './base/typography'; // base styles of h1-h6, p, span
+
+//components...
+@import './component/btn';
+@import './component/card';
+@import './component/check-box';
+@import './component/sidebar';
+@import './component/topbar';
+@import './component/footer';
+@import './component/load';
+@import './component/form';
+@import './component/date-picker';
+@import './component/date-picker-valuator';
+@import './component/search';
+@import './component/search-quote';
+@import './component/chips';
+@import './component/city-dropdown';
+@import './component/pagination';
+@import './component/loader';
+@import './component/table';
+@import './component/listingTable';
+@import './component/notification';
+@import './component/outline-button';
+@import './component/inventory/pending/filters';
+@import './component/inventory/pending/header';
+@import './component/carousel';
+@import './component/multi-select';
+@import './component/no-result-found';
+@import './component/image-preview';
+@import './component/documentQc/docimages';
+@import './component/viewUtr';
+@import './component//triangle';
+@import './component/circularProgressBar';
+@import './component/fhd-shd/form';
+@import './component/material-upload';
+@import './component/documentQc/filter';
+@import './component/assign-runner-filters';
+@import './component/image-viewer';
+@import './component/SparePartsMaster/inward-form-two.scss';
+@import './component/date-picker-deliver.scss';
+@import './component/table-drawer.scss';
+@import './component/ag-grid-table.scss';
+@import "./component/diyincomplete.scss";
+@import "./component/table-drawer.scss";
+@import "./component/table-drawer-commission.scss";
+@import "./dialog.scss";
+
+//pages...
+@import './containers/account';
+@import './containers/accept-reject';
+@import './containers/bidding-details';
+@import './containers/dashboard';
+@import "./containers/inspection-confirmation";
+@import "./containers/cpp-not-available";
+
+//objects...
+@import './objects/layout';

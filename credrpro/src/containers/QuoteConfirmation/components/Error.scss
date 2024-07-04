@@ -1,0 +1,125 @@
+// rs-error-message-wrapper commentError-message-wrapper rs-error-message-placement-bottom-start
+
+.rs-error-message-inner {
+    color: red;
+}
+
+.btn-outline {
+    background: white;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border-width: 1px;
+    background-color: #F4F7FD;
+    margin-bottom: 7px;
+  
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  
+    &.blue {
+      border-color: #111328;
+      color: #111328;
+  
+      &.selected,
+      &:hover {
+        background-color: #111328;
+        color: white;
+      }
+    }
+
+    &.green {
+      border-color: solid 1px #4dbd74;
+      background-color: rgba(77, 189, 116, 0.22);
+    }
+
+    &.red {
+      border-color: solid 1px #d92128;
+      background-color: rgba(217, 33, 40, 0.22);
+    }
+  }
+  
+  .btn-outline--small {
+    background: transparent;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 16px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-width: 1px;
+  
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  
+    &.bulk-download {
+      display: block;
+      margin-left: auto;
+    }
+  
+    &.blue {
+      border-color: #111328;
+      color: #111328;
+  
+      &:hover {
+        background-color: #111328;
+        color: white;
+      }
+    }
+  }
+
+  .rs-input-group.rs-input-group-inside .rs-input {
+    border-radius: 0px !important;
+    width: 320px !important;
+  }
+
+.drawerHeader {
+  font-family: "ProximaNovaSemibold";
+  padding: 12px 18px 0px;
+  font-size: 14px;
+}
+
+.drawerWrap {
+  border: 1px solid #EFEFEF;
+  background-color: #FFFFFF;
+  padding: 8px;
+  margin: 0px 18px 10px;
+}
+
+.logShape {
+  background-color: #111328;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 14px;
+    width: 100%;
+    max-width: 64px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding-left: 7px;
+    font-size: 11px;
+    font-family: 'ProximaNovaSemibold';
+}
+
+.imgWrapDIY {
+  margin: 0px auto;
+  text-align: center;
+  margin-top: -25px;
+
+  &.viewMore {
+    cursor: pointer;
+  }
+}
+
+.diyWrapp{
+  .rs-form-control-wrapper{
+    max-width: 153px !important;
+  }
+  .rs-picker-toggle-wrapper{
+    max-width: 153px !important;
+  }
+}
+
+.diyWrapp-wrapper {
+  max-width: 153px !important;
+  width: 100%;
+}

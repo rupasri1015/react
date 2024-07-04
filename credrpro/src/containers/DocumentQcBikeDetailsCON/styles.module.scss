@@ -1,0 +1,89 @@
+@import 'src/scss/settings/variable.scss';
+
+.container {
+  display: flex;
+}
+
+.filesContainer {
+  height: 150px;
+  margin-top: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dashed $color-gray;
+  background: #fafafa;
+}
+
+.fileInputWrapper {
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.fileViewer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.browseBtn {
+  background-color: white !important;
+  border: 1px solid #5498ff;
+  height: 30px;
+  color: #5498ff;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filesClassName {
+  max-width: none;
+  padding: 0;
+}
+
+.filesContainerClassName {
+  width: 100%;
+  margin: 0;
+}
+
+.disputeBtn {
+  background-color: orange !important;
+  color: white !important;
+  font-weight: 600;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+.btnClass {
+  font-weight: 600;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+.referenceImg {
+  height: 80px;
+  width: 80px;
+}
+
+.dropDown {
+  width: 68%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1160px) {
+  .container {
+    display: block;
+  }
+}
+

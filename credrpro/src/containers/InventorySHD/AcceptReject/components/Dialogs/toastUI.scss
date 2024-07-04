@@ -1,0 +1,81 @@
+.tui-image-editor-header {
+    background-color: #ffffff !important;
+}
+
+.tui-image-editor-container .tui-image-editor-wrap {
+    background-color: #ffffff !important;
+}
+
+// .tui-image-editor-container .tui-image-editor-controls {
+//     background-color: #34495E !important;
+// }
+
+.tui-image-editor-container .tui-image-editor-main-container {
+    background-color: #ffffff !important;
+}
+
+.tui-image-editor-container .tui-image-editor-header-logo, .tui-image-editor-container .tui-image-editor-controls-logo {
+    display: none !important;
+}
+
+.tui-image-editor-container .tui-image-editor-header-buttons button, .tui-image-editor-container .tui-image-editor-header-buttons div, .tui-image-editor-container .tui-image-editor-controls-buttons button, .tui-image-editor-container .tui-image-editor-controls-buttons div {
+    background-color: #DA2128 !important;
+    border: 1px solid #DA2128 !important;
+    font-family: 'ProximaNovaSemibold' !important;
+    font-size: 16px !important;
+}
+
+.tui-image-editor-container .tui-image-editor-header-buttons, .tui-image-editor-container .tui-image-editor-controls-buttons {
+    display: none !important;
+}
+
+.saveBtn {
+    float: right;
+    border-radius: 20px;
+    margin: 15px 20px 0px 20px;
+    padding: 5px 17px;
+    color: #fff;
+    background-color: green;
+    font-size: 18px;
+    font-family: 'ProximaNovaSemibold';
+}
+.closeBtn {
+    float: right;
+    border-radius: 20px;
+    margin: 15px 20px 0px 20px;
+    padding: 5px 17px;
+    color: #fff;
+    background-color: #DA2128;
+    font-size: 18px;
+    font-family: 'ProximaNovaSemibold';
+}
+
+// .tui-image-editor-container .color-picker-control .tui-colorpicker-palette-button {
+//     height: 15px !important;
+//     width: 15px !important;
+//     white-space: normal !important; 
+// }
+// .tui-image-editor-container .color-picker-control {
+//     width: auto !important;
+// }
+// .tui-image-editor-container div.tui-colorpicker-clearfix {
+//     margin: auto !important;
+// }
+// .tui-image-editor-container .color-picker-control .triangle {
+//     left: 143px !important;
+// }
+.tui-colorpicker-palette-button {
+    display: block;
+    overflow: hidden;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.tui-image-editor-container .color-picker-control .tui-colorpicker-container, .tui-image-editor-container .color-picker-control .tui-colorpicker-palette-container ul, .tui-image-editor-container .color-picker-control .tui-colorpicker-palette-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}

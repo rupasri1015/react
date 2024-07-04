@@ -1,0 +1,129 @@
+.main_container{
+    width:300px;
+    float:left;
+    position: relative;
+    margin-top: 30px;
+}
+    .trapezoid {
+        border-top: 50px solid #4BE1B9;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 300px;
+    }
+    
+    .trapezoid2 {
+        border-top: 50px solid #6FBAFE;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 250px;
+        margin-left:25px;
+    }
+    
+    .trapezoid3 {
+        border-top: 50px solid #F6DA6F;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 200px;
+        margin-left:50px;
+    }
+    
+    .trapezoid4 {
+        border-top: 50px solid #5F69CA;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 150px;
+        margin-left:75px;
+    }
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #D92123;
+        margin-left: 100px;
+    }
+
+    .text-span{
+        position: absolute;
+        top: 4%;
+        left: 44%;
+        font-weight: bold;
+        font-size: 16px;
+        color:#ffff;
+    }
+    
+    .text-span2{
+        position: absolute;
+    top: 21%;
+    /* text-align: center; */
+    left: 45%;
+    font-weight: bold;
+    font-size: 16px;
+    color:#ffff;
+    }
+
+    .text-span3{
+        position: absolute;
+        top: 37%;
+        /* text-align: center; */
+        left: 46%;
+        font-weight: bold;
+        font-size: 16px;
+        color:#ffff;
+    }
+
+    .text-span4{
+        position: absolute;
+    top: 54%;
+    /* text-align: center; */
+    left: 46%;
+    font-weight: bold;
+    font-size: 16px;
+    color:#ffff;
+    }
+
+    .text-span5{
+        position: absolute;
+        top: 73%;
+        /* text-align: center; */
+        left: 47%;
+        font-weight: bold;
+        font-size: 16px;
+        color:#ffff;
+    }
+
+    .circle::before{
+        display: inline-block;
+        vertical-align: sub;
+        content: '';
+        padding: 8px;
+        height: 8px;
+        width: 10px;
+        border-radius: 50%;
+        margin-right: 5px;
+        background: #D92123;
+    }
+
+    .circle.green::before{
+        background-color: #4BE1B9;
+    }
+
+    .circle.blue::before{
+        background-color: #6FBAFE;
+    }
+
+    .circle.yellow::before{
+        background-color: #F6DA6F;
+    }
+
+    .circle.purple::before{
+        background-color: #5F69CA;
+    }
+
+    .circle.red::before{
+        background-color: #D92123;
+    }

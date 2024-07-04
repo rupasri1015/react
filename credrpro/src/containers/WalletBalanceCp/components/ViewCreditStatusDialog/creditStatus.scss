@@ -1,0 +1,188 @@
+.inputRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4A4A4A
+}
+
+.editCardMain {
+    width: 500px;
+    // height: 800px;
+    overflow: auto;
+}
+
+.inputBalance {
+    align-items: flex-start;
+    padding: 10px 12px;
+    width: 286px;
+    height: 38px;
+    background: #FAFAFA;
+    border-radius: 7px;
+    margin-left: 5px;
+    border: 1px solid #3E3E3E;
+
+    &.availableBalance {
+        border: none;
+    }
+}
+
+.limiterrorDiv {
+    color: #DA2128;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+
+.calender-icon-credit {
+    width: 20px;
+    margin-right: -90px;
+}
+
+.statusBox {
+    padding: 10px 12px;
+    margin-left: 10px;
+    gap: 4px;
+    width: 75px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 6px;
+
+    &.pendingT {
+        background-color: #FFE100;
+        color: #323232;
+    }
+
+    &.enabled {
+        background-color: #42A61C;
+        color: #FFFFFF;
+    }
+
+    &.disabled {
+        background-color: #F3F3F3;
+        color: #676767;
+    }
+
+    &.expired {
+        background-color: #FFF5EC;
+        color: #E47200;
+    }
+}
+
+.balanceContainerMain {
+    display: flex;
+    flex-direction: column;
+    // background-color: #E47200;
+    height: 190px;
+    margin-bottom: 25px;
+}
+
+.balanceContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    margin-top: 15px
+}
+
+.paperContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px 1px rgba(149, 108, 216, 0.12);
+    border-radius: 12px;
+    padding: 0 20px;
+}
+
+.limitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.limitContainerLable {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #515151;
+}
+
+.limitContainerValue {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.expiryDateContainer {
+    padding: 8px 24px;
+    width: 313px;
+    height: 30px;
+    background-color: #FFF5EC;
+    border-radius: 6px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E47200;
+    margin: auto;
+}
+
+.expiredDateContainer {
+    padding: 8px 24px;
+    width: 313px;
+    height: 30px;
+    background-color: #F9F9F9;
+    border-radius: 6px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #616161;
+    margin: auto;
+
+}
+
+
+.buttonContianer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContianer button {
+    padding: 12px 36px;
+    border-radius: 6px;
+    border: none;
+    width: auto;
+    height: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    &.editButtonCredit {
+        background-color: #26ACCA;
+        margin-right: 24px;
+
+    }
+
+    &.enableButtonCredit {
+        background-color: #4DBD74;
+        margin-top: 50px;
+    }
+
+    &.disableButtonCredit {
+        background-color: #DA2128;
+
+    }
+}

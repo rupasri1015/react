@@ -1,0 +1,48 @@
+.wrap {
+    .MuiTypography-h6 {
+        font-size: 18px !important;
+        font-family: 'ProximaNovaSemibold';
+    }
+
+    .btn-edit {
+        border-radius: 20px;
+        padding: 6px 10px;
+        color: #fff;
+        background-color: #55B7EF;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-left: 35px;
+        // float: right;
+    }
+}
+
+.headerWrap {
+    background-color: #EFEFEF;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 13px;
+    font-family: 'ProximaNovaSemibold';
+}
+
+.rejectSHD{
+    background-color: #DA2128;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: 'ProximaNovaSemibold';
+    text-transform: uppercase;
+    border: 1px solid#DA2128;
+}
+
+.acceptSHD{
+    background-color:#4DBD74;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: 'ProximaNovaSemibold';
+    text-transform: uppercase;
+    margin-left: 12px;
+    border: 1px solid #4DBD74;
+}

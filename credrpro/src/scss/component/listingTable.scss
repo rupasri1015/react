@@ -1,0 +1,92 @@
+.list_table-wraper {
+    background-color: white;
+    overflow-x: auto;
+  
+    .link {
+      text-decoration: underline;
+      cursor: pointer;
+      display: inline-block;
+    }
+  
+    &.marginTop {
+      margin-top: 22px;
+    }
+  
+    &.marginTopFranchise {
+      margin-top: 2px;
+    }
+  
+    &.drawerStyles {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: calc(100% - 250px)
+    }
+  
+    &.sort {
+      cursor: pointer;
+    }
+  
+    .MuiTableCell-sizeSmall {
+      padding: 6px 8px 6px 8px;
+    }
+  
+    .MuiTable-root {
+      font-family: inherit;
+  
+      .MuiTableHead-root {
+        th {
+          font-size: 13px;
+        }
+      }
+  
+      .MuiTableBody-root {
+        td {
+          font-size: 15px;
+          line-height: 2rem;
+        }
+      }
+  
+      .MuiTableHead-root {
+        box-shadow: $shadow;
+      }
+    }
+  
+    .table-paginator {
+      padding: 20px 15px;
+      overflow: auto;
+    }
+  }
+  
+  .payment-action-icon {
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .MuiTableRow-root.MuiTableRow-hover:hover {
+    background-color: #F4F7FD !important;
+  }
+  
+  td p {
+    margin: 0;
+  }
+  
+  .action-icon {
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .MuiDrawer-paperAnchorRight {
+    left: auto;
+    width: 300px;
+    right: 0px;
+    height: 100vh;
+  }
+  
+  .dividerWidth {
+    width: 100%;
+  }
+  
+  .tableCellHead {
+    font-family: 'ProximaNovaSemibold';
+  }
